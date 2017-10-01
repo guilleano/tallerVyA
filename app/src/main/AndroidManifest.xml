@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.redes.volumenesyareas">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Principal">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Circulo1" />
+        <activity android:name=".Circulo2" />
+        <activity android:name=".Areas" />
+        <activity android:name=".Volumenes" />
+        <activity android:name=".Cubo1" />
+        <activity android:name=".Cubo2" />
+        <activity android:name=".Cuadrado1" />
+        <activity android:name=".Cuadrado2" />
+        <activity android:name=".Triangulo1" />
+        <activity android:name=".Triangulo2" />
+        <activity android:name=".Esfera1" />
+        <activity android:name=".Esfera2" />
+        <activity android:name=".Rectangulo1" />
+        <activity android:name=".Rectangulo2" />
+        <activity android:name=".Cono1" />
+        <activity android:name=".Cono2" />
+        <activity android:name=".Cilindro1" />
+        <activity android:name=".Cilindro2" />
+        <activity android:name=".Listar_figuras"></activity>
+    </application>
+
+</manifest>

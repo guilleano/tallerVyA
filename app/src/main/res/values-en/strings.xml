@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VOLUMES  Y  AREAS</string>
+    <string name="area">area</string>
+    <string name="borrar">delete</string>
+    <string name="calcular">calculate</string>
+    <string name="cilindro">cylinder</string>
+    <string name="circulo">circle</string>
+    <string name="cono">cone</string>
+    <string name="cuadrado">square</string>
+    <string name="cubo">cube</string>
+    <string name="datos">data</string>
+    <string name="esfera">sphere</string>
+    <string name="opciones">options</string>
+    <string name="operacion">operations</string>
+    <string name="realizadas">performed</string>
+    <string name="rectangulo">rectangle</string>
+    <string name="resultado">result</string>
+    <string name="triangulo">triangle</string>
+    <string name="valorAltura">height value</string>
+    <string name="valorArista">edge value</string>
+    <string name="valorBase">base value</string>
+    <string name="valorLado">side value</string>
+    <string name="valorRadio">radius value</string>
+    <string name="volumen">volume</string>
+</resources>

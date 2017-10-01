@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.redes.volumenesyareas.Listar_figuras">
+
+    <TextView
+        android:id="@+id/txtRealizadas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/realizadas"
+        android:text="@string/realizadas"
+        android:textAlignment="center"
+        android:textSize="32dp"
+        android:textStyle="bold|italic" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txtRealizadas"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tblOperaciones"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:id="@+id/txtId" />
+
+            <TextView
+                android:id="@+id/txtOperacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/operacion"
+                android:text="@string/operacion" />
+
+            <TextView
+                android:id="@+id/txtDatos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/datos"
+                android:text="@string/datos" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Resultado"
+                android:id="@+id/txtResultado"
+                android:hint="@string/resultado" />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>
